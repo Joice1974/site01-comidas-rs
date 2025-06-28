@@ -1,97 +1,131 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #fffbea;
-  color: #333;
-  margin: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1e1e1e; /* Fundo escuro */
+  color: #f8f8f8; /* Texto claro */
+  margin: 0;
   padding: 20px;
 }
 
 h1 {
-  color: #b22222; /* Vermelho escuro */
-  border-bottom: 3px solid #b22222;
-  padding-bottom: 10px;
+  color: #ffcc00; /* Amarelo ouro */
+  background-color: #800000; /* Vermelho bandeira RS */
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #000;
+  text-align: center;
 }
 
 img {
-  width: 300px;
-  border-radius: 10px;
-  margin: 10px 0;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
-}
-
-table {
-  width: 70%;
-  border-collapse: collapse;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 12px;
   margin: 20px auto;
-  background-color: #fff;
-}
-
-th {
-  background-color: #228b22; /* Verde */
-  color: white;
-  padding: 10px;
-}
-
-td {
-  padding: 10px;
-  text-align: center;
-  border: 1px solid #ccc;
+  display: block;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
 }
 
 nav ul {
   list-style: none;
   padding: 0;
-  background-color: #fcd34d; /* Amarelo claro */
-  padding: 10px;
-  border-radius: 8px;
+  margin: 20px auto;
+  max-width: 300px;
+  background-color: #2f2f2f;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #000;
 }
 
 nav ul li {
-  margin: 5px 0;
+  padding: 10px;
+  border-bottom: 1px solid #444;
+  text-align: center;
+}
+
+nav ul li:last-child {
+  border-bottom: none;
 }
 
 nav a {
+  color: #00ffcc;
   text-decoration: none;
-  color: #b22222;
   font-weight: bold;
+  font-size: 18px;
 }
 
 nav a:hover {
-  color: #228b22;
+  color: #ffcc00;
+}
+
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #2f2f2f;
+  box-shadow: 0 0 10px #000;
+}
+
+th, td {
+  border: 1px solid #555;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #006400; /* Verde escuro RS */
+  color: #fff;
+}
+
+td {
+  background-color: #3a3a3a;
 }
 
 form {
-  background-color: #ffffff;
+  background-color: #2f2f2f;
   padding: 20px;
-  border-radius: 10px;
-  border: 1px solid #ccc;
+  border-radius: 12px;
   max-width: 400px;
+  margin: 30px auto;
+  box-shadow: 0 0 15px #000;
 }
 
 label {
   font-weight: bold;
-  color: #333;
+  display: block;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: #444;
+  color: #fff;
 }
 
 button {
-  background-color: #b22222;
-  color: white;
-  padding: 10px 15px;
+  background-color: #ffcc00;
+  color: #000;
+  padding: 10px 20px;
+  margin-top: 15px;
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  margin-top: 10px;
+  font-weight: bold;
 }
 
 button:hover {
-  background-color: #228b22;
+  background-color: #00ffcc;
+  color: #000;
 }
 
 a {
+  color: #00ffcc;
   text-decoration: none;
-  color: #0055aa;
 }
 
 a:hover {
+  color: #ffcc00;
   text-decoration: underline;
 }
